@@ -170,9 +170,9 @@ public final class HugeFactoryAuthProxy {
         Reflection.registerMethodsToFilter(com.baidu.hugegraph.auth.EntityManager.class, "save", "query", "graph", "tx", "toList", "commitOrRollback", "unhideLabel", "queryById", "queryEntity", "constructVertex");
         Reflection.registerFieldsToFilter(com.baidu.hugegraph.auth.RelationshipManager.class, "graph", "label", "deser", "NO_LIMIT", "$assertionsDisabled");
         Reflection.registerMethodsToFilter(com.baidu.hugegraph.auth.RelationshipManager.class, "save", "queryRelationship", "lambda$0", "graph", "tx", "toList", "commitOrRollback", "unhideLabel", "queryById", "newVertex");
-        Reflection.registerFieldsToFilter(com.baidu.hugegraph.auth.HugeUser.class, "name", "password", "phone", "email", "avatar", "role");
+//        Reflection.registerFieldsToFilter(com.baidu.hugegraph.auth.HugeUser.class, "name", "password", "phone", "email", "avatar", "role");
         Reflection.registerMethodsToFilter(com.baidu.hugegraph.auth.HugeUser.class, "property", "asArray");
-        Reflection.registerFieldsToFilter(com.baidu.hugegraph.auth.SchemaDefine.UserElement.class, "CREATE", "UPDATE", "CREATOR", "id", "create", "update", "creator");
+//        Reflection.registerFieldsToFilter(com.baidu.hugegraph.auth.SchemaDefine.UserElement.class, "CREATE", "UPDATE", "CREATOR", "id", "create", "update", "creator");
         Reflection.registerMethodsToFilter(com.baidu.hugegraph.auth.SchemaDefine.UserElement.class, "asMap", "property", "asArray", "asArray");
         Reflection.registerFieldsToFilter(com.baidu.hugegraph.auth.HugeResource.class, "CHECK_NAME_RESS", "type", "label", "properties", "$assertionsDisabled");
         Reflection.registerMethodsToFilter(com.baidu.hugegraph.auth.HugeResource.class, "contains", "filter", "filter", "filter", "access$1", "access$2", "access$3", "access$4", "access$5", "access$0", "matchLabel", "matchProperties");
